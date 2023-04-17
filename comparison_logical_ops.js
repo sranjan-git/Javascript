@@ -19,4 +19,3 @@ console.log(!(5 < 10))
 
 //Ternary Operator (expression) ? a : b
 2 < 3 ? console.log(true) : console.log(false)
-
