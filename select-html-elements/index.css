@@ -1,0 +1,80 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Semantic Elements</title>
+
+        <style>
+            #header{
+                background-color: cadetblue;
+                padding: 24px;
+            }
+
+            #navbar{
+                background-color: coral;
+                padding: 8px;
+            }
+
+            #main-section{
+                background-color: darkgrey;
+                padding: 24px;
+            }
+
+            #section{
+                background-color: lightgreen;
+                padding: 24px;
+            }
+
+            .article{
+                background-color: seagreen;
+                padding: 16px;
+                margin-top: 12px;
+                margin-bottom: 12px;
+            }
+
+            #footer{
+                background-color: rgb(66, 63, 63);
+                padding: 1px;
+                
+            }
+
+        </style>
+        </head>
+    
+    <body style="margin: 0;">
+        <header id="header">
+            <nav id="navbar">
+                <span>Menu 1</span>
+                <span>Menu 2</span>
+                <span>Menu 3</span>
+            </nav>
+        </header>
+
+        <main id="main-section">
+            <section id="section">
+                <article class="article">
+                    <header>
+                        <h3>Article Title One</h3>
+                        <a href="/">Author One</a>
+                    </header>
+                    <p>Thank You for visiting my Github Profile. 
+                        Have a good day! :)
+                    </p>
+
+                </article>
+                <article class="article">
+                    <header>
+                        <h3>Article Title Two</h3>
+                        <a href="/">Author Two</a>
+                    </header>
+                    <p>Thank You for visiting my Github Profile. 
+                        Have a good day! :)</p>
+                </article>
+            </section>
+        </main>
+        <footer id="footer">
+            <p>Copyright 2023</p>
+        </footer>
+
+        <script type="text/javascript" src="index.js"></script>
+    </body>
+</html>
